@@ -1,0 +1,41 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="Product Listings"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageButton
+            android:layout_marginLeft="25dp"
+            android:id="@+id/vcart"
+            android:text="View Cart"
+            android:src="@drawable/cartsmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/psignout"
+            android:text="Signout"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+<ListView
+    android:id="@+id/clist"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></ListView>
+
+
+</LinearLayout>

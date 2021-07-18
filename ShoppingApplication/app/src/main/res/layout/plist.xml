@@ -1,0 +1,74 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/ppic"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="125dp"
+        android:layout_height="125dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="255dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/pname"
+            android:text="Name:"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/pdesc"
+            android:text="Brief Summary:"
+            android:layout_width="match_parent"
+            android:layout_height="65dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+            <TextView
+                android:id="@+id/pprice"
+                android:text="Price:"
+                android:layout_width="150dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:id="@+id/pquant"
+                android:text="Stock:"
+                android:layout_width="105dp"
+                android:layout_height="50dp" />
+
+            <!--<Button
+                android:id="@+id/paddtocart"
+                android:text="Add to cart"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />-->
+        </LinearLayout>
+    </LinearLayout>
+    <!--<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <Button
+            android:text="+"
+            android:id="@+id/pincq"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <TextView
+            android:text="0"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            android:id="@+id/pquantity"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <Button
+            android:text="-"
+            android:id="@+id/pdecq"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+-->
+</LinearLayout>
