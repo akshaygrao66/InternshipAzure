@@ -1,0 +1,98 @@
+<ScrollView android:layout_height="300dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" >
+
+<LinearLayout android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:id="@+id/regform"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Register to Create Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/rfname"
+            android:hint="Enter First Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/rmname"
+            android:hint="Enter Middle name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/rlname"
+        android:hint="Enter Last Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/rpass"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:maxHeight="20dip"
+            android:minHeight="20dip"
+            android:layout_weight="1"
+            android:progress="0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Weak"
+            android:id="@+id/password_strength" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/rcpass"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/remail"
+        android:hint="Enter Email_ID"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/rphone"
+        android:hint="Enter Phone Number"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/rdob"
+        android:hint="Enter Date of Birth"
+        android:inputType="date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/rsubmit"
+        android:text="Create Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</ScrollView>
